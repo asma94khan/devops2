@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Login Page </title>
+<meta charset="UTF-8">
+</head>
+<body>
+<div id="login">
+<form action="profile.php" method="post">
+Username <input type="text" name="id" placeholder="Aadhaar Number">
+Password <input type="password" name="pwd" >
+<input type="button" value="Login">
+<input type="button" value="Forgot Password?">
+</div>
+<aside>
+<div id="register">
+<form method="post">
+<sup style="color:red"> * </sup>First Name <input type="text" name="fname" size="40">
+Middle Name <input type="text" name="mname" size="40">
+<sup style="color:red"> * </sup>Last Name <input type="text" name="lname" size="40">
+<sup style="color:red"> * </sup>Aadhaar Card number <input type="text" name="uin" size="40">
+<sup style="color:red"> * </sup>Password <input type="password" name="pwd" size="40">
+<sup style="color:red"> * </sup>Re-type Password <input type="password" name="pwd" size="40">
+District <input list="district" name="district" placeholder="Select District" size="50">
+<datalist id="district">
+<option value="kancheepuram">Kancheepuram</option>
+<option value="Vellore">Vellore </option>
+<option value="Chennai">Chennai </option>
+</datalist>
+Constituency <input list="constituency" name="constituency" placeholder="Select constituency" size="50">
+<datalist id="constituency">
+<div id="kancheepuram">
+<option value="Pallavaram">Pallavaram </option>
+<option value="Tambaram">Tambaram </option>
+<option value="Chengalpattu">Chengalpattu </option>
+<option value="Kancheepuram">Kancheepuram </option>
+</div>
+<div id="Vellore">
+<option value="Katpadi">Katpadi </option>
+<option value="Vellore">Vellore </option>
+<option value="Ambur">Ambur </option>
+<option value="Anaikkattu">Anaikkattu </option>
+</div>
+<div id="Chennai">
+<option value="Egmore">Egmore </option>
+<option value="Anna Nagar">Anna Nagar </option>
+<option value="Velachery">Velachery </option>
+<option value="Perambur">Perambur </option>
+</div>
+</datalist>
+<input type="submit" value="Submit">
+
+</form>
+
+</div>
+<aside>
+</body>
+</html>    
